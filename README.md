@@ -14,26 +14,26 @@ Este projeto tem o objetivo de exercitar a identificação e criação de cenár
 4. **Contrato de Serviços:** Registro dos contratos efetivados. 
 
 
-### features
+### Features:
 
-#### Cadastro da Empresa:
+#### 1 - Cadastro da Empresa:
 1. O sistema fará a gestão de apenas uma empresa prestadora de serviços.
 2. A empresa terá em seu cadastro nome, celular, endereço e e-mail.
 3. O telefone deverá conter máscara para informação do código de área e nove dígitos. 
 4. No campo endereço serão informados o logradouro, número e cidade. 
 
-#### Serviços:
+#### 2 - Serviços:
 1. Cada serviço terá um identificador único, descrição e status
 2. O status dos serviços irá variar entre ativo e inativo.
 
-#### Cadastro de Clientes:
+#### 3 - Cadastro de Clientes:
 1. Cada cliente terá um identificador único, nome, celular, endereço e e-mail.
 2. O telefone deverá conter máscara para informação do código de área e nove dígitos. 
 3. No campo endereço serão informados o logradouro, número e cidade. 
 4. O cliente poderá realizar a contratação de mais de um contrato simultaneamente.
 5. No cadastro do cliente, deve ser possível ver todos os contratos realiazados pelo mesmo. 
 
-#### Contrato de Serviços:
+#### 4 - Contrato de Serviços:
 1. Cada contrato terá um identificador único, data de contratação e de execução, observação e status.
 2. A data de execução não poderá ser menor que a data de contratação.
 3. O status do contrato varia entre Pendente e Realizado. 
